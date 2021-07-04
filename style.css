@@ -35,12 +35,15 @@ h2 {
   border-radius: 8px;
 }
 
+/* middle section  */
 .middle-section {
   margin-top: 10px;
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
+
+/* experience section  */
 .experience-section {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
@@ -53,6 +56,8 @@ h2 {
   text-decoration-color: orange;
   text-underline-offset: 12px;
 }
+
+/* card  */
 .card {
   box-shadow: 8px 3px 21px gray;
   margin-left: 5%;
@@ -72,11 +77,9 @@ h2 {
   border-image: linear-gradient(rgb(64, 64, 179), rgb(64, 86, 107));
   border-image-slice: 1;
 }
-footer p {
-  margin-top: 150px;
-  text-align: center;
-}
-.contactUs-section {
+
+/* contact section  */
+.contactUs-section h1 {
   text-align: center;
   text-decoration-line: underline;
   text-decoration-color: orange;
@@ -109,4 +112,10 @@ textarea {
   color: rgba(49, 20, 0, 0.753);
   font-weight: 600;
   resize: none;
+}
+
+/* Footer  */
+footer p {
+  margin-top: 150px;
+  text-align: center;
 }
