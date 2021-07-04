@@ -10,6 +10,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 32px;
+}
 .orange-color {
   color: orangered;
 }
@@ -38,19 +41,72 @@ h1 {
   background-repeat: no-repeat;
   background-position: right;
 }
-
-.card {
-  border-left: 6px solid rgb(247, 101, 101);
-  box-shadow: 8px 3px 21px 0px rgb(0 0 0 / 20%);
-  margin: 25px;
-}
-footer > section {
-  margin-left: 4%;
-  padding: 5px;
-  background-image: url(/images/exp-bg.png);
+.experience-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
   background-position: left;
+  margin-bottom: 25px;
+}
+.experience-section h1 {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: orange;
+  text-underline-offset: 12px;
+}
+.card {
+  box-shadow: 8px 3px 21px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 25px;
+  width: 40%;
+  padding-left: 15px;
+  border-radius: 15px;
+}
+#card1 {
+  border-left: 8px solid;
+  border-image: linear-gradient(orange, orangered);
+  border-image-slice: 1;
+}
+#card2 {
+  border-left: 8px solid;
+  border-image: linear-gradient(rgb(64, 64, 179), rgb(64, 86, 107));
+  border-image-slice: 1;
+}
+footer p {
+  margin-top: 150px;
+  text-align: center;
+}
+.contactUs-section {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: orange;
+  text-underline-offset: 12px;
+}
+.contactUs-section {
+  background-image: url(images/contact-us-bg2.png);
   background-repeat: no-repeat;
 }
-footer .experience {
-  text-align: center;
+.contactUs-section div {
+  margin: auto;
+}
+.contact-form {
+  box-shadow: 8px 3px 21px gray;
+  width: 60%;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+.contact-form button {
+  margin: 20px 0;
+}
+input,
+textarea {
+  width: 80%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgba(49, 20, 0, 0.753);
+  font-weight: 600;
+  resize: none;
 }
