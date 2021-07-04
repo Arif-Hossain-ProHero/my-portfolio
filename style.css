@@ -20,7 +20,7 @@ h1 {
 .half-width img {
   width: 80%;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -37,4 +37,20 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.card {
+  border-left: 6px solid rgb(247, 101, 101);
+  box-shadow: 8px 3px 21px 0px rgb(0 0 0 / 20%);
+  margin: 25px;
+}
+footer > section {
+  margin-left: 4%;
+  padding: 5px;
+  background-image: url(/images/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+footer .experience {
+  text-align: center;
 }
